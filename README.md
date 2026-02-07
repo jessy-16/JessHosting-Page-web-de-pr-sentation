@@ -2,6 +2,7 @@ Présentation
 
 JessHosting est une page de présentation pour un service d’hébergement web. Elle inclut :
 
+
 -Une section hero avec titre et bouton d’appel à l’action
 
 -Une section présentant les serveurs et fonctionnalités
@@ -14,11 +15,14 @@ JessHosting est une page de présentation pour un service d’hébergement web. 
 
 -Un formulaire de contact pour les utilisateurs
 
+
 Le design se concentre sur la clarté, la navigation intuitive et la responsivité.
 
-Fonctionnalités
 
--Menu de navigation responsive
+Fonctionnalités :
+
+
+-Menu de navigation responsive, en cliquant sur feature on accède à une deuxième page web
 
 -Section hero avec bouton d’appel à l’action
 
@@ -34,13 +38,17 @@ Fonctionnalités
 
 -Footer avec informations de contact et droits d’auteur
 
-Technologies
+
+Technologies :
+
 
 -HTML5 – Structure sémantique
 
 -CSS3 – Mise en page et design
 
-Pages
+
+Pages :
+
 
 -index.html – Page principale
 
@@ -49,3 +57,5 @@ Pages
 -style.css – Feuille de style pour toutes les pages
 
 images/ – Dossier contenant les icônes et la bannière (icon_1.jpg, icon_2.jpg, icon_3.jpg, banner.jpg)
+
+Projet réalisé par JESSYCA KIOUBIA
