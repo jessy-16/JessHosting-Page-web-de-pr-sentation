@@ -1,0 +1,275 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header.hero {
+  background: url("buildings.jpg") center/cover no-repeat; /* image de fond */
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px; /* réduit pour bannière plus fine */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #ff8fa3;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffb6c1;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ffb6c1;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8fa3;
+}
+
+/* ===== SERVERS ===== */
+section.servers {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+section.servers h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+section.servers .options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+section.servers .options div {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.servers img {
+  width: 60px;  /* taille icônes */
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+/* ===== PRICING ===== */
+.pricing-page {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Couleurs */
+.card--pink {
+  background-color: #ffb6c1;
+}
+.card--peach {
+  background-color: #ffd1b3;
+}
+.card--mint {
+  background-color: #d8b4e2;
+}
+.card--blue {
+  background-color: #8b0000;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+/* ===== SUBSCRIBE ===== */
+ .subscribe {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.subscribe h2 {
+  margin-bottom: 40px;
+}
+
+.subscribe .options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.subscribe .options div {
+  padding: 25px;
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #222;
+} 
+
+
+.Basic {
+  background-color: #ffd1b3; /* orange pastel */
+}
+.Pro {
+  background-color: #d8b4e2; /* violet pastel */
+}
+.Expert {
+  background-color: #ffb6c1; /* rose pastel */
+}
+
+/* ===== ROAD ===== */
+.road {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.road img {
+  width: 100%;
+  height: 120px; /* plus fine */
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== INFORMATIONS ===== */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.input-box {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn-send {
+  background-color: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-send:hover {
+  background-color: #ff8fa3;
+}
+
+footer p {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #666;
+}
